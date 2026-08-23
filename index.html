@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minenhle Excellent Ndlovu | Cloud & DevOps</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles/Excellent Ndlovu.css">
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- Particle background -->
+  <div id="tsparticles"></div>
+
+  <!-- Header -->
+  <header>
+    <h1>Minenhle</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="https://wa.me/27661771094" target="_blank" class="chat-button"> <i class="fab fa-whatsapp"></i> Let's Chat </a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2>Hello, I'm Minenhle Excellent Ndlovu</h2>
+        <p>I'm a final-year BSc IT student specializing in Computer Science and Chemistry, Microsoft Certified: Azure Fundamentals (AZ-900), and an aspiring Cloud Engineer and DevOps Practitioner.</p>
+<div class="hero-buttons">
+  <a href="mailto:excellentndlovu398@gmail.com" class="button hire">Hire Me</a>
+  <a href="#portfolio" class="button projects">See Projects</a>
+  <a href="Minenhle_Ndlovu_CV.pdf" download class="button cv">Download CV</a>
+</div>
+      </div>
+      <div class="hero-image">
+        <img src="images/profile.jpg" alt="My Photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <div class="card">
+        <h3>Who I Am</h3>
+        <p>I'm a passionate software developer with experience building web and mobile applications, with a growing focus on Cloud Computing, Azure, DevOps, and software engineering.</p>
+      </div>
+      <div class="card">
+        <h3>My Journey</h3>
+        <p>I am completing my BSc IT at the University of the Free State, specializing in Computer Science and Chemistry. I am Microsoft Certified: Azure Fundamentals (AZ-900) and currently studying towards Azure Administrator (AZ-104).</p>
+      </div>
+      <div class="card">
+        <h3>Cloud & DevOps</h3>
+        <p>Microsoft Certified: Azure Fundamentals (AZ-900). Currently studying towards AZ-104 and building my knowledge in Azure, cloud infrastructure, CI/CD, automation, and DevOps practices.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Portfolio Section -->
+<section id="portfolio">
+  <h2>Portfolio</h2>
+
+  <!-- Filter Select Menu -->
+  <div class="portfolio-filter-select">
+    <label for="category-select">Filter by Tech/Language:</label>
+    <select id="category-select">
+  <option value="all">All</option>
+  <!-- Frontend -->
+  <option value="html">HTML</option>
+  <option value="css">CSS</option>
+  <option value="javascript">JavaScript</option>
+  <option value="typescript">TypeScript</option>
+  <option value="react">React</option>
+  <option value="angular">Angular</option>
+  <option value="vue">Vue.js</option>
+  <option value="svelte">Svelte</option>
+  <option value="tailwind">Tailwind CSS</option>
+  <option value="bootstrap">Bootstrap</option>
+
+  <!-- Backend -->
+  <option value="nodejs">Node.js</option>
+  <option value="express">Express</option>
+  <option value="python">Python</option>
+  <option value="django">Django</option>
+  <option value="flask">Flask</option>
+  <option value="php">PHP</option>
+  <option value="laravel">Laravel</option>
+  <option value="java">Java</option>
+  <option value="spring">Spring</option>
+  <option value="csharp">C#</option>
+  <option value="dotnet">.NET</option>
+  <option value="ruby">Ruby</option>
+  <option value="rails">Ruby on Rails</option>
+  <option value="go">Go</option>
+  <option value="rust">Rust</option>
+
+  <!-- Databases -->
+  <option value="mysql">MySQL</option>
+  <option value="postgresql">PostgreSQL</option>
+  <option value="mongodb">MongoDB</option>
+  <option value="firebase">Firebase</option>
+
+  <!-- Mobile / Others -->
+  <option value="flutter">Flutter</option>
+  <option value="reactnative">React Native</option>
+  <option value="kotlin">Kotlin</option>
+  <option value="swift">Swift</option>
+
+  <!-- DevOps / Tools -->
+  <option value="docker">Docker</option>
+  <option value="git">Git</option>
+  <option value="github">GitHub</option>
+  <option value="ci-cd">CI/CD</option>
+
+</select>
+
+  </div>
+
+ <!-- No projects message -->
+<div id="no-projects" style="display:none; text-align:center; color:#00ffea; margin-top:20px;">
+  No projects found.
+</div>
+
+
+  <div class="projects">
+    <!-- Project 1 -->
+    <div class="card" data-category="csharp dotnet sql git github">
+      <img src="images/LAB.png" alt="LabSystem Project Screenshot">
+      <h3>LabSystem - Laboratory Management System</h3>
+      <p>A laboratory management system developed as a final-year project using ASP.NET Core MVC, Entity Framework Core, SQL Server, and ASP.NET Core Identity.</p>
+      <p><strong>Tech:</strong> C#, ASP.NET Core MVC, Entity Framework Core, SQL Server, ASP.NET Identity, GitHub</p>
+      <div class="project-buttons">
+        <a href="https://github.com/ExcellentNdlovu399/Lab-System-ASP.NET-Core-MVC" target="_blank" class="button projects">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <!--div class="card" data-category="flutter firebase">
+      <img src="images/project2.jpg" alt="Mobile Application Project Screenshot">
+      <h3>Flutter & Firebase Applications</h3>
+      <p>Mobile application development experience using Flutter, Dart, Firebase Authentication, Cloud Firestore, Realtime Database, and local storage technologies.</p>
+      <p><strong>Tech:</strong> Flutter, Dart, Firebase, Firestore, Firebase Authentication</p>
+      <div class="project-buttons">
+        <a href="https://github.com/ExcellentNdlovu399" target="_blank" class="button projects">GitHub</a>
+      </div>
+    </div-->
+
+    <!-- Project 3 -->
+    <div class="card" data-category="html css javascript bootstrap">
+      <img src="images/project3_screenshot.png" alt="Web Development Project Screenshot">
+      <h3>Web Application Development</h3>
+      <p>Responsive web development using HTML, CSS, JavaScript, Bootstrap, and Font Awesome, with experience integrating frontend interfaces with backend applications.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JavaScript, Bootstrap, JavaScript</p>
+      <div class="project-buttons">
+        <a href="https://github.com/ExcellentNdlovu399/" target="_blank" class="button projects">GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Blog Section -->
+<section id="blog">
+  <h2>Blog</h2>
+  <div class="projects">
+
+    <!-- Blog Post 1 -->
+    <div class="card">
+      <h3>My Journey into Cloud Computing and DevOps</h3>
+      <p>After developing applications across web, mobile, backend, and database technologies, I am expanding my skills into Microsoft Azure, cloud infrastructure, automation, and DevOps.</p>
+      <pre>
+&lt;nav&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#portfolio"&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+      </pre>
+     <a href="#portfolio" class="button blog-btn">See Related Projects</a>
+    </div>
+
+    <!-- Blog Post 2 -->
+    <div class="card">
+      <h3>From Software Development to Cloud Engineering</h3>
+      <p>My software development experience with C#, ASP.NET Core, SQL Server, Java, Flutter, Firebase, and web technologies is now forming the foundation of my journey toward Cloud Engineering and DevOps.</p>
+      <ul>
+        <li>Started with HTML, CSS, and JavaScript fundamentals</li>
+        <li>Built small projects to practice skills</li>
+        <li>Learned React and Node.js for frontend and backend</li>
+        <li>Contributed to open-source projects</li>
+      </ul>
+      <a href="#portfolio" class="button blog-btn">See My Projects</a>
+    </div>
+
+    <!-- Blog Post 3 -->
+    <div class="card">
+      <h3>Preparing for Microsoft Azure Administrator (AZ-104)</h3>
+      <p>I am currently studying towards AZ-104 to deepen my practical understanding of Azure administration, including identity, storage, networking, compute, monitoring, and governance.</p>
+      <ul>
+        <li>AI-powered web applications</li>
+        <li>Dark mode and neon UI designs</li>
+        <li>Serverless architecture</li>
+        <li>Motion & interactive design</li>
+      </ul>
+      <a href="#portfolio" class="button blog-btn">See Trend-Inspired Projects</a>
+    </div>
+
+    <!-- Blog Post 4 -->
+    <div class="card">
+      <h3>Why DevOps Interests Me</h3>
+      <p>DevOps combines software development, automation, cloud infrastructure, collaboration, and continuous delivery. It is the direction I am interested in pursuing as I grow my cloud engineering skills.</p>
+      <ul>
+        <li>Prettier – code formatter</li>
+        <li>Live Server – instant preview</li>
+        <li>ES7+ React/Redux/JS snippets – React shortcuts</li>
+        <li>GitLens – visualize Git history</li>
+        <li>Bracket Pair Colorizer – easier readability</li>
+      </ul>
+      <a href="#skills" class="button blog-btn">Check Tools Section</a>
+    </div>
+
+    <!-- Blog Post 5 -->
+    <div class="card">
+      <h3>My Azure Fundamentals Certification</h3>
+      <p>I recently earned the Microsoft Certified: Azure Fundamentals (AZ-900) certification and am continuing to build my Azure knowledge through hands-on learning and preparation for AZ-104.</p>
+      <pre>
+d3.select('#chart')
+  .selectAll('div')
+  .data(data)
+  .enter()
+  .append('div')
+  .style('width', d =&gt; d.value + 'px')
+  .text(d =&gt; d.name);
+      </pre>
+      <a href="#portfolio" class="button blog-btn">Explore the Project</a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>Frontend</h3>
+        <p>HTML, CSS, JavaScript, Bootstrap, Font Awesome</p>
+      </div>
+      <div class="card">
+        <h3>Backend & Databases</h3>
+        <p>C#, ASP.NET Core MVC, Entity Framework Core, SQL Server, Firebase</p>
+      </div>
+      <div class="card">
+        <h3>Cloud & Tools</h3>
+        <p>Microsoft Azure, Git, GitHub, Visual Studio, Visual Studio Code, Android Studio, Flutter</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact">
+      <div class="card">
+        <h3>Email</h3>
+        <p>excellentndlovu399@gmail.com</p>
+      </div>
+      <div class="card">
+        <h3>Phone</h3>
+        <p>(+27) 66 177 1094</p>
+      </div>
+
+     <div class="card">
+  <h3>Social</h3>
+  <p class="social-icons">
+    <a href="https://www.linkedin.com/in/minenhle-ndlovu-57b0413a2" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/ExcellentNdlovu399" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100082574862362" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/minenhle_ndlovu98?igsi=OGtjYjdwN3pocm42" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://vm.tiktok.com/ZS9BJMxGVDVwC-jO5Qc/" target="_blank"><i class="fab fa-tiktok"></i></a>
+  </p>
+</div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+  &copy; <span id="current-year"></span> Minenhle Excellent Ndlovu. All rights reserved.
+</footer>
+<script src="scripts/script.js"></script>
+</body>
+</html>
